@@ -5,7 +5,7 @@ Fall 2024 Hack4Impact Junior Development Team Workshop Finished Repository.
 ### Personal CV Website (HTML / CSS / JavaScript)
 Build a Personal CV Website to explore basic frontend technologies with an opportunity for minimal backend (RapidAPI weather API).
 
-### Social Media Web App w/ ReactJS + MUI
+### Social Media Web App (ReactJS / MUI)
 Build a Social Media Web App with components and style with outside icons. Once completing the template make it your own!
 
 ## Backend Projects
