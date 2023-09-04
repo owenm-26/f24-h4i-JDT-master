@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script defer src="script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>ClimateTracker</title>
+  </head>
+  <body class="background">
+    <header>
+      <h1>ClimateTracker</h1>
+    </header>
+
+    <main class="container">
+      <div class="row">
+        <!-- Form Container -->
+        <div class="form-container">
+          <h5>Track Climate by Location</h5>
+          <label for="city">Enter City Name</label>
+          <input
+            class="u-full-width"
+            type="text"
+            id="city-input"
+            name="city-input"
+            placeholder="City name"
+          />
+
+          <label for="state">Enter State</label>
+          <input
+            class="u-full-width"
+            type="text"
+            id="state-input"
+            name="state"
+            maxlength="2"
+            placeholder="State name"
+          />
+
+          <button id="search-button" class="button-primary">Search</button>
+        </div>
+
+        <!-- Weather Boxes -->
+        <h3 class="title">7 Day Forecast</h3>
+        <div class="row weather-container">
+          <div class="one-seventh column weather-box">
+            <h6 id="monday-title">Monday</h6>
+            <p id="monday-temp"></p>
+            <p id="monday-clouds"></p>
+          </div>
+          <div class="one-seventh column weather-box">
+            <h6 id="tuesday-title">Tuesday</h6>
+            <p id="tuesday-temp"></p>
+            <p id="tuesday-clouds"></p>
+          </div>
+          <div class="one-seventh column weather-box">
+            <h6 id="wednesday-title">Wednesday</h6>
+            <p id="wednesday-temp"></p>
+            <p id="wednesday-clouds"></p>
+          </div>
+          <div class="one-seventh column weather-box">
+            <h6 id="thursday-title">Thursday</h6>
+            <p id="thursday-temp"></p>
+            <p id="thursday-clouds"></p>
+          </div>
+          <div class="one-seventh column weather-box">
+            <h6 id="friday-title">Friday</h6>
+            <p id="friday-temp"></p>
+            <p id="friday-clouds"></p>
+          </div>
+          <div class="one-seventh column weather-box">
+            <h6 id="saturday-title">Saturday</h6>
+            <p id="saturday-temp"></p>
+            <p id="saturday-clouds"></p>
+          </div>
+          <div class="one-seventh column weather-box">
+            <h6>Sunday</h6>
+            <p id="sunday-temp"></p>
+            <p id="sunday-clouds"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Footer content here -->
+    </footer>
+  </body>
+</html>

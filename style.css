@@ -1,0 +1,36 @@
+.form-container {
+    margin-top: 2em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  header {
+    padding: 1em;
+    text-align: center;
+  }
+  .weather-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-top: 2em;
+  }
+  .weather-box {
+    flex: 1;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url("https://img.freepik.com/free-photo/watercolor-light-steel-blue-wallpaper-image_53876-94665.jpg?w=360");
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .title {
+    text-align: center;
+    margin-top: 2em;
+  }
+  .background {
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1064-36-kvc4sbxw.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=11c71191248c91421a27826f4517e71a");
+    background-size: cover; /* Cover the entire page */
+    background-attachment: fixed; /* Fixed position */
+  }
