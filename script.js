@@ -1,9 +1,14 @@
-
+const DAYS_OF_WEEK = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 
 const searchButton = document.getElementById('search-button');
-
+const searchContainer = document.getElementById('search-container');
 searchButton.addEventListener('click', search);
 
+// Initially hide the search container when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+  const searchContainer = document.getElementById('search-container');
+  searchContainer.style.display = 'none';
+});
 async function search() {
 
     const stateInput = document.getElementById('state-input');
@@ -33,7 +38,6 @@ async function search() {
   }
 
     function updateDisplay(data) {
-        const DAYS_OF_WEEK = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 
         for (let i = 0; i < data.length; i++) {
             const day = DAYS_OF_WEEK[i];
@@ -44,6 +48,5 @@ async function search() {
             cloudsSelector.innerHTML = `Chance of clouds: ${data[i].clouds}%`;
 
         }
-     
-
+        searchContainer.style.display = 'block';
     }
