@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="/static/stylesheets/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae74141193.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="todo-container">
+        <h2>To-Do List</h2>
+        <div class="todo">
+            <form action="/" method="POST" class="todo-header">
+                <input type="text" name="content">
+                <button type="submit"><span class="fas fa-plus"></span></button>
+            </form>
+            <ul class="todo-list">
+                <li class="todo-list-item">
+                <div class="todo-list-item-name">Some Text</div>
+                <a href="" class="edit">
+                    <span class="fas fa-edit"></span>
+                </a>
+                <a href="" class="remove">
+                    <span class="fas fa-times"></span>
+                </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
